@@ -41,7 +41,7 @@ On supercomputer Fugaku, run the shell script as follows.
 
 To run a single GWSN model, run `wsn.out` after preparing `_input.json` file in the current directory. The format of the `_input.json` file is the following.
 
-```json:_input.json
+```jsonc:_input.jsonc
 {
     "net_size":5000,  // the size of the network
     "p_tri":0.2,      // the probability to close the traids during Local Attachment
