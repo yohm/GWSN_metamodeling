@@ -1,0 +1,10 @@
+{
+"ycol": 0,
+"units1": 17,
+"units2": 13,
+"units3": 13,
+"activation": "tanh",
+"lr": 0.002,
+"batch_size": 5000,
+"epochs": 1000
+}

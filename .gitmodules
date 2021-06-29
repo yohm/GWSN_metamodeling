@@ -1,0 +1,9 @@
+[submodule "sim_wsn_all"]
+	path = sim_wsn_all
+	url = git@github.com:yohm/sim_wsn_all.git
+[submodule "infomap"]
+	path = infomap
+	url = git@github.com:mapequation/infomap.git
+[submodule "caravan-lib"]
+	path = caravan-lib
+	url = git@github.com:yohm/caravan-lib.git

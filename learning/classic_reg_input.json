@@ -1,0 +1,7 @@
+{
+  "ycol": 0,
+  "polynomial_degree": 1,
+  "alpha": 0.1,
+  "l1_ratio": 0.7
+}
+

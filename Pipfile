@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+keras = "*"
+tensorflow = "==2.4.1"
+tensorflowjs = "*"
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+jupyter = "*"
+icecream = "*"
+# for OACIS
+mprpc = "*"
+fibers = "*"
+# for sensitivity analysis
+salib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

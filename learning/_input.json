@@ -1,0 +1,10 @@
+{
+  "ycol": 0,
+  "units1": 30,
+  "units2": 10,
+  "units3": 0,
+  "activation": "relu",
+  "lr": 0.001,
+  "batch_size": 200,
+  "epochs": 2000
+}
