@@ -71,9 +71,9 @@ def plot_s1_st(problem,si,legend=True):
     ic(x)
     width = 0.4  # the width of the bars
     plt.xticks(x, problem['names'])
-    plt.ylabel(r'$S_1,S_T$')
-    plt.bar(x-width/2, si['S1'], width=width, yerr=si['S1_conf'], label=r'$S_1$', error_kw=dict(lw=1, capsize=3, capthick=1))
-    plt.bar(x+width/2, si['ST'], width=width, yerr=si['ST_conf'], label=r'$S_T$', error_kw=dict(lw=1, capsize=3, capthick=1))
+    plt.ylabel(r'$S_i,S_{Ti}$')
+    plt.bar(x-width/2, si['S1'], width=width, yerr=si['S1_conf'], label=r'$S_i$', error_kw=dict(lw=1, capsize=3, capthick=1))
+    plt.bar(x+width/2, si['ST'], width=width, yerr=si['ST_conf'], label=r'$S_{Ti}$', error_kw=dict(lw=1, capsize=3, capthick=1))
     if legend:
         plt.legend()
     plt.ylim(bottom=0.0)
