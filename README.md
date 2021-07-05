@@ -84,7 +84,7 @@ A sample of `_output.json` is like the following:
 }
 ```
 
-To integrate the wsn.out with OACIS, register the following command as a simulation command.
+To integrate the wsn.out with [OACIS](https://github.com/crest-cassia/oacis), register the following command as a simulation command.
 
 ```shell
 ~/path/to/repo/oacis/run_wsn_all.sh
@@ -153,7 +153,7 @@ The results (the values of the loss function for the training set and the valida
 
 You'll also find `loss.png` file that shows the time evolutions of the error functions. The regression model is saved in `model.h5`.
 
-To integrate it with OACIS, register the command as follows: (change the path according to your environment)
+To integrate it with [OACIS](https://github.com/crest-cassia/oacis), register the command as follows: (change the path according to your environment)
 
 ```
 env PIPENV_PIPFILE=~/path/to/repo/Pipfile pipenv run python ~/path/to/repo/learning/multi_layer_perceptron.py ~/path/to/training_data.txt
@@ -162,7 +162,7 @@ env PIPENV_PIPFILE=~/path/to/repo/Pipfile pipenv run python ~/path/to/repo/learn
 ## comparing the regression with simulation data
 
 The script `calc_predicted.py` makes plots that compare the regression model and simulations.
-Before running this script, run simulations on OACIS. These results are collected when executing this script and the figures are made.
+Before running this script, run simulations on [OACIS](https://github.com/crest-cassia/oacis). These results are collected when executing this script and the figures are made.
 
 ## making an interactive chart
 
@@ -175,6 +175,10 @@ tensorflowjs_converter --input_format keras model.h5 converted_k
 
 Save converted results for each output into the directories `converted_k`, `converted_kk`, `converted_w`, `converted_cc`, `converted_ck`, `converted_o`, `converted_ow`, `converted_perc_a`, `converted_perc_d`.
 Then, launch a web server and open `index.html`.
+
+## obtained meta-models
+
+The meta-models obtained by the regression are available in `docs` directory. Find `model_*.h5` files.
 
 ## sensitivity analysis
 
