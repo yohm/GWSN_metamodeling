@@ -189,5 +189,12 @@ After you prepared the metamodel, run the script like
 python sensitivity_analysis.py
 ```
 
+# Visualization of the Regression Results
+
+https://yohm.github.io/GWSN_metamodeling/
+
 # Reference
 
+Yohsuke Murase, Hang-Hyun Jo, János Török, János Kertész, Kimmo Kaski
+"Deep Learning Exploration of Agent-Based Social Network Model Parameters"
+[Frontiers in Big Data, 4, 86 (2021)](https://doi.org/10.3389/fdata.2021.739081)
